@@ -1,0 +1,63 @@
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 50%; /* Centra horizontalmente el contenedor */
+  transform: translateX(-50%);
+  z-index: 1;
+  box-shadow: 0px 2px 5px rgba(171, 170, 255, 0.1); /* Elimina la sombra */
+  background: rgba(171, 170, 255, 0.1); /* Elimina el fondo */
+}
+ 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Centra verticalmente los elementos en la barra de navegación */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente la imagen del logo */
+  margin-right: auto;
+  padding: 15px 0; /* Añade un espacio alrededor del logo */
+}
+
+.logo {
+  max-height: 30px; /* Ajusta el tamaño máximo del logo según sea necesario */
+}
+
+li {
+  margin: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #333; /* Color de texto para los elementos */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+  padding: 15px 20px;
+}
+
+li a:hover {
+  color: #555; /* Cambia el color de texto al pasar el ratón */
+}
+
+.nav-li {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  /* Ajustes para pantallas pequeñas */
+  .navbar-container a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+}

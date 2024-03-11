@@ -1,0 +1,35 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para el contenedor de tarjetas */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las tarjetas */
+}
+
+/* Estilos para cada tarjeta */
+.quiz-card {
+  width: 100%;
+}
+
+.card-with-image {
+  display: flex;
+  align-items: center;
+}
+
+.card-image1 {
+  width: 200px;
+  height: auto;
+  margin-right: 80px;
+}
+
+.card-image2 {
+  width: 300px;
+  height: auto;
+  margin-right: 20px; /* Espacio entre la imagen y la tarjeta */
+  margin-bottom: 40px;
+}
